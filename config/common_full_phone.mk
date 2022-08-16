@@ -1,5 +1,4 @@
 # Telephony
-
 IS_PHONE := true
 
 # World APN list
@@ -15,5 +14,5 @@ PRODUCT_PACKAGES += \
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     net.tethering.noprovisioning=true
 
-# Inherit full common PixelExperience stuff
+# Inherit full common AOSP stuff
 $(call inherit-product, vendor/aosp/config/common_full.mk)
