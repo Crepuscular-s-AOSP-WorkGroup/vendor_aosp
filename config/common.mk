@@ -100,6 +100,11 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     SystemUI
 
+# Required packages
+PRODUCT_PACKAGES += \
+    LatinIME \
+    ThemePicker
+
 # Gboard configuration
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.com.google.ime.theme_id=5 \
