@@ -16,3 +16,7 @@
 
 # Crepuscular AOSP Overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/aosp/overlay
+
+# Theme stub
+PRODUCT_PACKAGES += \
+    CaospThemesStub
