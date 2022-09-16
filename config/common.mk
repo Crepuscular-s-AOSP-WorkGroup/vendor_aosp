@@ -125,4 +125,7 @@ PRODUCT_PACKAGES += \
 	libtextclassifier_actions_suggestions_universal_model \
 	libtextclassifier_lang_id_model
 
+# Overlay
+$(call inherit-product, vendor/aosp/overlay/overlay.mk)
+
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
